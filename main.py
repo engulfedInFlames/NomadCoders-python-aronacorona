@@ -7,6 +7,10 @@ stylesheets = ["https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min
 
 app = Dash(__name__, external_stylesheets=stylesheets)
 
+app.title = "Aroncorona Dashboard"
+
+server = app.server
+
 # assume you have a "long-form" data frame
 # see https://plotly.com/python/px-arguments/ for more options
 

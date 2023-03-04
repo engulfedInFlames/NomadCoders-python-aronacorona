@@ -1,0 +1,11 @@
+/* assets/styles.css에 css를 작성하면 dash에 자동 적용된다. */
+
+table tbody::-webkit-scrollbar {
+  display: none;
+}
+
+table tbody {
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

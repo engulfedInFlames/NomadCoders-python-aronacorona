@@ -1,0 +1,16 @@
+1. heroku
+    .0 What is heroku?
+    : python이나 node.js로 작성된 app을 deploy할 수 있는 플랫폼. 간단히 deploy할 수 있기 때문에 aws보다 비싸다.
+
+    .1 How to deploy with heruko?
+    : Follow the installation Guide of Heroku CLI (url:https://devcenter.heroku.com/articles/heroku-cli)
+    -> Create App
+    -> refer "deploy_using_heroku_kit.png"
+    -> Before "Deploy your application" in a deploy process, make a server for heroku. refer "server.png"
+    -> $ pip freeze > requirements.txt
+    -> Create Profile (Let heroku know the web info)
+    -> Don't run app server directly by your script
+
+    .2 with gunicorn
+    : python을 위한 live server / flask, django보다 좋은 점은?
+    : 앱을 직접적으로 일반 서버로 돌리는 것은 좋지 않다. (왜?) 따라서, gunicorn을 사용한다.

@@ -1,0 +1,17 @@
+1. dash
+    .0 What is Dash?
+    : Written on top of Plotly.js and React.js, Dash is ideal for building and deploying data apps with customized user interfaces. 
+      It's particularly suited for anyone who works with data.
+
+    .1 $ pip install dash
+    : plotly lib도 함께 설치된다.
+    : Jupyter을 선호한다면 $ pip install jupyter-dash
+
+    .2 callback
+    : python만으로 interactive한 app을 만들 수 있다.
+    : "@app.callback" decorator를 사용하며, inputs/outpus를 인자로 받는다.
+
+    .3 Hot-reload
+    : debug를 True로, 필요하다면 threaded도 True로
+    if __name__ == '__main__':
+      app.run_server(debug=True, threaded=True)

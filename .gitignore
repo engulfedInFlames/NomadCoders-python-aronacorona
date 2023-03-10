@@ -1,2 +1,4 @@
-.venv 
-/chapter
+/.venv 
+/.ipynb_checkpoints
+/__pycache__
+/Procfile

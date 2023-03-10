@@ -1,0 +1,20 @@
+1. (Optional) Create .venv
+    $ python -m venv .venv
+    -> $ echo ".venv" >> .gitignore
+
+2. $ Jupyter
+    .0 $ pip install jupyterlab
+    : 브라우저에서 python 코드를 구현할 수 있게 한다.
+    
+    .1 $ jupyter-notebook
+
+    .2 $ pip install jupyterthemes (Optional)
+    : jupyter-notebook의 테마를 설정할 수 있다.
+    
+3. pandas
+    .0 $ pip install pandas
+    : pandas는 csv 파일을 위한 데이터 프레임을 가지고 있다.
+
+4. $ pip install plotly==5.13.1
+
+* Run Code vs Run Python File in Terminal for VScode
